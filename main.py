@@ -5,7 +5,7 @@ url = 'https://app.bupt.edu.cn/buptdf/wap/default/chong'
 
 # 定义要发送的 Cookie
 cookies = {
-    'eai-sess':'d1fmrog0copqkir6ke5l3hg1j5',
+    'eai-sess':'d1fmrog0copqkxxxxxxxxhg1j5',
    # 'UUkey':'实测只传eai就够了'
 }
 response = requests.get(url, cookies=cookies,verify=False,allow_redirects=False)
